@@ -1,14 +1,29 @@
 Section 27: Node.js: An Introduction 0 / 20 | 1hr 44min
 - [ ] 477. Module Introduction 2min
-- [ ] 478. JavaScript is a Hosted Language 2min    
-- [ ] 479. Installation & Basics    6min     
-- [ ] 480. Understanding Modules & File Access    5min     
-- [ ] 481. Working with Incoming Http Requests    6min     
-- [ ] 482. Sending Responses (HTML Data)    4min     
-- [ ] 483. Parsing Incoming Data    11min     
-- [ ] 484. Introducing & Installing Express.js    3min     
-- [ ] 485. Express.js: The Basics    7min     
-- [ ] 486. Extracting Data    4min     
+- [ ] 478. JavaScript is a Hosted Language 2min
+- [ ] 479. Installation & Basics 6min
+- [ ] 480. Understanding Modules & File Access 5min
+  - require
+- [ ] 481. Working with Incoming Http Requests 6min
+
+  ```javascript
+  - httpCreateServer((request, response) => { // "spins up a server and sends back a response"
+    response.write('hello there');
+    response.end();
+  });
+  
+  const port = 3000;
+  server.listen(port); // localhost:3000
+  ```
+  
+- [ ] 482. Sending Responses (HTML Data) 4min
+  - Kinds of data
+  - response.setHeader('Content-Type', 'text/html');
+
+- [ ] 483. Parsing Incoming Data 11min
+- [ ] 484. Introducing & Installing Express.js 3min
+- [ ] 485. Express.js: The Basics 7min
+- [ ] 486. Extracting Data 4min
 - [ ] 487. Rendering Server-side HTML with Templates & EJS    7min 
 - [ ] 488. Enhancing Our Project    4min 
 - [ ] 489. Adding Basic REST Routes    12min     
